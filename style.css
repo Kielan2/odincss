@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mnav {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    color: white;
+    padding: 0 15em;
+}
+
+.mnav ul {
+    display: flex;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 2em 2em;
+}
+
+.logo  {
+    display: flex;
+    justify-content: flex-start;
+    color: #f9faf8;
+    margin-right: auto;
+    font-size: larger;
+}
+
+.hero {
+    background-color: #1f2937;
+    clear: both;
+    height: 500px;
+    padding: 7em 15em;
+}
+
+.word {
+    display: inline;
+    margin-right: 3em;
+}
+
+.word h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.word p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-right: 2em;
+    padding: 1em 0;
+}
+
+.hero img {
+    float: right;
+    width: 500px;
+    height: 250px;
+    margin-left: 7em;
+}
+
+.hero input {
+    background-color: #3882f6;
+    border: solid #3882f6;
+    color: white;
+    border-radius: 5px;
+    margin: 0 5em;
+}
+
+.rando {
+    margin: 5em;
+}
+
+.rando h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+.rando img {
+    border:#3882f6 solid 2px;
+    border-radius: 10%;
+    height: 215px;
+    width: 180px;
+}
+
+.rando div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 10em;
+}
+
+.rando figure {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    
+}
+
+.rando figcaption {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 180px;
+}
+
+.quot {
+    background-color: #e5e7eb;
+    padding: 32em;
+}
+
+.quot div span {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quot h1 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quot span {
+    font-weight: bolder;
+}
+
+.cta {
+    background-color: #3882f6;
+    color: white;
+    margin: 20em;
+    padding: 4em 8em;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+}
