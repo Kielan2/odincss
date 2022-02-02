@@ -88,11 +88,12 @@ nav li {
 }
 
 .rando {
-    margin: 5em;
+    padding: 5em;
+    background-color: deepskyblue;
 }
 
 .rando h2 {
-    font-size: 36px;
+    font-size: 48px;
     font-weight: bolder;
     color: #1f2937;
     display: flex;
@@ -101,17 +102,17 @@ nav li {
 }
 
 .rando img {
-    border:#3882f6 solid 2px;
+    border: gold solid 5px;
     border-radius: 10%;
-    height: 215px;
-    width: 180px;
+    height: 400px;
+    width: 300px;
 }
 
 .rando div{
     display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin: 0 10em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
 }
 
 .rando figure {
@@ -119,13 +120,19 @@ nav li {
     flex-flow: column;
     margin: auto;
     
+    margin: 1em;
 }
 
 .rando figcaption {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    width: 180px;
+    justify-content: center;
+    width: 300px;
+    padding: 1em;
+    font-size: x-large;
+    color: midnightblue;
+    font-weight: bolder;
 }
 
 .quot {
