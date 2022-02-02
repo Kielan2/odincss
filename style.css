@@ -7,9 +7,11 @@
 .mnav {
     display: flex;
     flex-direction: row;
-    background-color: #1f2937;
-    color: white;
-    padding: 0 15em;
+    background-color: deepskyblue;
+    color: crimson;
+    padding: 0 10em;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .mnav ul {
@@ -18,7 +20,16 @@
 
 nav li {
     list-style-type: none;
-    margin: 2em 2em;
+    margin: 1em 2em;
+}
+
+.norm:hover {
+    background-color: black;
+    color: gold;
+}
+
+.norm {
+    padding-top: 1.2em;
 }
 
 .logo  {
@@ -27,12 +38,14 @@ nav li {
     color: #f9faf8;
     margin-right: auto;
     font-size: larger;
+    height: 75px;
+    width: 75px;
 }
 
 .hero {
-    background-color: #1f2937;
+    background-color: black;
     clear: both;
-    height: 500px;
+    height: 600px;
     padding: 7em 15em;
 }
 
@@ -44,7 +57,7 @@ nav li {
 .word h1 {
     font-size: 48px;
     font-weight: bolder;
-    color: #f9faf8;
+    color: gold;
 }
 
 .word p {
@@ -56,8 +69,8 @@ nav li {
 
 .hero img {
     float: right;
-    width: 500px;
-    height: 250px;
+    width: 700px;
+    height: 350px;
     margin-left: 7em;
 }
 
@@ -67,6 +80,11 @@ nav li {
     color: white;
     border-radius: 5px;
     margin: 0 5em;
+}
+
+.hero a {
+    color: gold;
+    font-size: larger;
 }
 
 .rando {
@@ -135,6 +153,7 @@ nav li {
     color: white;
     margin: 20em;
     padding: 4em 8em;
+    border-radius: .5em;
 }
 
 footer {
