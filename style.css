@@ -188,7 +188,27 @@ nav li {
     justify-content: flex-end;
 }
 
+.soon {
+    padding-top: 3em;
+}
 
+.soon h2 {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    padding-bottom: 3em;
+    color: ghostwhite;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    gap: 8em;
+    padding-bottom: 5em;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: ghostwhite;
+}
 
 footer {
     background-color: black;
