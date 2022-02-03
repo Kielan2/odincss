@@ -45,7 +45,7 @@ nav li {
 .hero {
     background-color: black;
     clear: both;
-    height: 600px;
+    height: 800px;
     padding: 7em 15em;
 }
 
@@ -87,12 +87,12 @@ nav li {
     font-size: larger;
 }
 
-.rando {
+#rando {
     padding: 5em;
     background-color: deepskyblue;
 }
 
-.rando h2 {
+#rando h2 {
     font-size: 48px;
     font-weight: bolder;
     color: #1f2937;
@@ -101,21 +101,21 @@ nav li {
     padding-bottom: 2em;
 }
 
-.rando img {
+#rando img {
     border: gold solid 5px;
     border-radius: 10%;
     height: 400px;
     width: 300px;
 }
 
-.rando div{
+#rando div{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     
 }
 
-.rando figure {
+#rando figure {
     display: flex;
     flex-flow: column;
     margin: auto;
@@ -123,7 +123,7 @@ nav li {
     margin: 1em;
 }
 
-.rando figcaption {
+#rando figcaption {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -136,26 +136,28 @@ nav li {
 }
 
 .quot {
-    background-color: #e5e7eb;
+    background-color: black;
     padding: 32em;
 }
 
 .quot div span {
     display: flex;
     justify-content: flex-end;
+    padding: 1em;
 }
 
 .quot h1 {
     font-size: 36px;
     font-style: italic;
-    color: #1f2937;
+    color: ghostwhite;
 }
 
 .quot span {
     font-weight: bolder;
+    color: gold;
 }
 
-.cta {
+#cta {
     background-color: #3882f6;
     color: white;
     margin: 20em;
@@ -164,8 +166,8 @@ nav li {
 }
 
 footer {
-    background-color: #1f2937;
-    color: white;
+    background-color: black;
+    color: ghostwhite;
     display: flex;
     justify-content: center;
     padding: 3em;
