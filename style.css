@@ -23,9 +23,13 @@ nav li {
     margin: 1em 2em;
 }
 
-.norm:hover {
-    background-color: black;
+.norm a:hover {
     color: gold;
+}
+
+.norm a {
+    text-decoration: none;
+    color: crimson;
 }
 
 .norm {
@@ -61,7 +65,7 @@ nav li {
 }
 
 .word p {
-    font-size: 18px;
+    font-size: 24px;
     color: #e5e7eb;
     margin-right: 2em;
     padding: 1em 0;
@@ -89,7 +93,7 @@ nav li {
 
 #rando {
     padding: 5em;
-    background-color: deepskyblue;
+    background-image: linear-gradient(deepskyblue, ghostwhite);
 }
 
 #rando h2 {
@@ -158,12 +162,33 @@ nav li {
 }
 
 #cta {
-    background-color: #3882f6;
-    color: white;
+    background-color: deepskyblue;
+    color: ghostwhite;
     margin: 20em;
     padding: 4em 8em;
+    border: black 3px solid;
     border-radius: .5em;
+    display: flex;
+    justify-content: space-evenly;
 }
+
+#cta h3,p {
+    font-size: large;
+}
+
+#cta a {
+    background-color: crimson;
+    border: 2px ghostwhite solid;
+    font-size: x-large;
+    color: ghostwhite;
+    border-radius: .5em;
+    text-decoration: none;
+    padding: .5em 1em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
 
 footer {
     background-color: black;
