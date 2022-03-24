@@ -4,6 +4,6 @@ document.getElementById('scissors').addEventListener('click', computerPlay)
 
 
 
-function computerPlay('rock', 'paper', 'scissors'){
+function computerPlay(rock, paper, scissors){
     if
 }
