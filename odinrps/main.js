@@ -5,5 +5,5 @@ document.getElementById('scissors').addEventListener('click', computerPlay)
 
 
 function computerPlay(rock, paper, scissors){
-    if
+    iff
 }
