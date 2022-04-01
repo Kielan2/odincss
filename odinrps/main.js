@@ -21,7 +21,7 @@ function rpsTwo(playerChoice){
     (playerChoice === 'scissors' && botChoice === 'paper') ){
         return 'You Win'
     } else if (playerChoice === botChoice){
-        return 'You Tiea'    
+        return 'You Tied'    
     } else {
         'You Lose'
     }
