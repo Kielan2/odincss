@@ -1,6 +1,5 @@
-document.getElementById('rock').addEventListener('click', computerPlay)
-document.getElementById('paper').addEventListener('click', computerPlay)
-document.getElementById('scissors').addEventListener('click', computerPlay)
+document.getElementById('shoot').addEventListener('click', rpsTwo)
+
 
 function rps(){
     let random = Math.random()
@@ -13,22 +12,27 @@ function rps(){
     }
 }
 
+let computerWins = 0
+document.getElementById('computer').innerText = computerWins
+let playerWins = 0
+document.getElementById('player').innerHTML = playerWins
+let draws = 0
+document.getElementById('draw').innerHTML = draws
 
-function rpsTwo(playerChoice){
+function rpsTwo(){
+    let playerChoice = document.querySelector('.playerChoice').value
     let botChoice = rps()
     if ( (playerChoice === 'rock' && botChoice === 'scissors') ||
     (playerChoice === 'paper' && botChoice === 'rock') || 
     (playerChoice === 'scissors' && botChoice === 'paper') ){
-        return 'You Win'
+        document.querySelector('.winner').innerText ='You Win'
+        playerWins += 1;
     } else if (playerChoice === botChoice){
-        return 'You Tied'    
+        document.querySelector('.winner').innerText ='You Tied'
+        draws++    
     } else {
-        'You Lose'
+        document.querySelector('.winner').innerText ='You Lose'
+        computerWins++ 
     }
 }
 
-function rpsThree(arr){
-    arr.forEach( choice => rpsTwo(choice) )
-}
-
-rpsThree(['rock', 'paper', 'scissors'])
